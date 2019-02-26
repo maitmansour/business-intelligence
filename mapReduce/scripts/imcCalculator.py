@@ -7,20 +7,20 @@ import sys
 import numpy as np
 
 class imcCalculator(mrs.MapReduce):
-
-        def input_data(self, job):
-        	# Check if args are used
-            if len(self.args) < 2:
-                print >> sys.stderr, 'USAGE : imcCalculator inputDirectory/ outputDirectory/'
-                return None
-            inputs = []
-            # Save input directory name
-            inputDirectory=self.args[0]
-            # Get files
-            files=glob.glob(inputDirectory+'*.csv', recursive=True)
-            print('***** Input Files *****')
-            print(files)
-            return job.file_data(files)
+       #if you want to use multiple files
+       # def input_data(self, job):
+       # 	# Check if args are used
+       #     if len(self.args) < 2:
+       #         print >> sys.stderr, 'USAGE : imcCalculator inputDirectory/ outputDirectory/'
+       #         return None
+       #     inputs = []
+       #     # Save input directory name
+       #     inputDirectory=self.args[0]
+       #     # Get files
+       #     files=glob.glob(inputDirectory+'*.csv', recursive=True)
+       #     print('***** Input Files *****')
+       #     print(files)
+       #     return job.file_data("../data/socio/socio_100000.csv")
         def map(self,key, value):
         	# Get every person values
             values=re.split(',',value)
