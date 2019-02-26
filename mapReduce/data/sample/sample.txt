@@ -1,0 +1,4 @@
+Voici la première ligne,
+et voici une autre ligne : la seconde ligne.
+La troisième ligne.
+Et enfin la dernière ligne.
