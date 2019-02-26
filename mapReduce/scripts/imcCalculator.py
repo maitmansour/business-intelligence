@@ -5,22 +5,25 @@ import glob
 import re
 import sys
 import numpy as np
+import os
 
 class imcCalculator(mrs.MapReduce):
-       #if you want to use multiple files
-       # def input_data(self, job):
-       # 	# Check if args are used
-       #     if len(self.args) < 2:
-       #         print >> sys.stderr, 'USAGE : imcCalculator inputDirectory/ outputDirectory/'
-       #         return None
-       #     inputs = []
-       #     # Save input directory name
-       #     inputDirectory=self.args[0]
-       #     # Get files
-       #     files=glob.glob(inputDirectory+'*.csv', recursive=True)
-       #     print('***** Input Files *****')
-       #     print(files)
-       #     return job.file_data("../data/socio/socio_100000.csv")
+
+        def input_data(self, job):
+        	# Check if args are used
+            if len(self.args) < 2:
+                print >> sys.stderr, 'USAGE : imcCalculator inputFile/ outputDirectory/'
+                return None
+            inputs = []
+            # Save input directory name
+            inputFile=self.args[0]
+            # Get files
+            self.reduceFile(inputFile)
+            tmp_reduced_files='../data/tmp/'
+            files=glob.glob(tmp_reduced_files+'*.csv', recursive=True)
+            #print('***** Input Files *****')
+            #print(files)
+            return job.file_data(files)
         def map(self,key, value):
         	# Get every person values
             values=re.split(',',value)
@@ -34,7 +37,6 @@ class imcCalculator(mrs.MapReduce):
                 else:
                     # Give key for each sexe
                     if "female" in values[4]:
-                        print(values[4])
                         newKey=2
                     del values[4]
                     del values[0]
@@ -50,13 +52,35 @@ class imcCalculator(mrs.MapReduce):
             average=np.average(lst)
             maximum=max(lst)
             minimum=min(lst)
-
+            # Remove Tmp Files
+            self.cleanTmpFiles()
             # Print details
             if key==2:
                 result='\nFemale MAX : '+str(maximum)+'\nFemale MIN :'+str(minimum)+'\nFemale AVG :'+str(average)
             else:
                 result='\nMale MAX : '+str(maximum)+'\nMale MIN :'+str(minimum)+'\nMale AVG :'+str(average)
             yield result
+        def reduceFile(self,filename):
+            lines_per_file = 10000
+            smallfile = None
+            tmp_reduced_files_directory='../data/tmp/'
+            print("**** Start Minimizing : "+filename+" ****")
+            with open(filename) as bigfile:
+                for lineno, line in enumerate(bigfile):
+                    if lineno % lines_per_file == 0:
+                        if smallfile:
+                            smallfile.close()
+                        small_filename = tmp_reduced_files_directory+'small_file_{}.csv'.format(lineno + lines_per_file)
+                        smallfile = open(small_filename, "w")
+                        print("Start Writing : "+small_filename)
+                    smallfile.write(line)
+                if smallfile:
+                    smallfile.close()
+        def cleanTmpFiles(self):
+            print("**** Clean tmp files ****")
+            files=glob.glob('../data/tmp/*.csv', recursive=True)
+            for f in files:
+                os.remove(f)
 
 if __name__ == '__main__':
     mrs.main(imcCalculator)
