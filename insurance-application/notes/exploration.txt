@@ -1,0 +1,30 @@
+actionnaire : pas d'anomalie, mais il faut encoder la valeurs de cet attribut. Il faut la création d'une matrice avec les différentes valeurs.
+activite : pas d'anomalie, mais il faut encoder la valeurs de cet attribut. Il faut la création d'une matrice avec les différentes valeurs.
+age : pas d'anomalie, on garde les valeurs telles qu'elles sont, car elles ont des valeurs significatives, sur quelles on peut faire des traitement.
+ca_export_FK : valeurs cohérentes, avec l'existence d'un manque de quelques valeurs (8%), qui sont représentées dans le fichier avec le NA (not available). Il faut également normaliser les valeurs.
+ca_total_FL : valeurs cohérentes, mais il faut normaliser les valeurs afin d'éliminer la marge énorme entre les valeurs.  
+chgt_dir : 1/3 des données de cet attribut sont indisponibles (non fournir par les entreprises). Il faut la création d'une matrice avec les différentes valeurs et l'ajout d'une troisième classe pour les NA. 
+code_cr : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs.
+dept : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs.
+effectif : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs. La normalisation des données à prévoir.
+risque : valeurs cohérentes. Existence de 1% des données NA et des valeurs non précises (inclus dans une intervalle). 
+endettement : valeurs cohérentes.
+evo_benefice : valeurs cohérentes. A voir plutard.
+ratio_benef : ratio sur bénéfice (= bénéfice / CA total). Plus de 80% des valeurs vont 0. Nécessite d'un recalcul.
+evo_effectif : valeurs cohérentes. Plus de 80% des valeurs vont 0.
+evo_risque : valeurs cohérentes. Plus de 60% des valeurs vont 0.
+type_com : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs.
+forme_jur_simpl : valeurs cohérentes. Pas d'anomalie. 
+rdv : valeurs cohérentes.
+
+
+
+
+
+
+
+
+valeurs negatives
+dependance entre les atributs (CA et benefice)
+explique les decisions suppression ( grande proportion des NA)
+(numeric, ordonnale(ordonner plus grand au plus petit), categorial)
