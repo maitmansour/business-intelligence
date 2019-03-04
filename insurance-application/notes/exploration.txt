@@ -7,7 +7,7 @@ chgt_dir : 1/3 des données de cet attribut sont indisponibles (non fournir par 
 code_cr : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs. catégorielle
 dept : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs. catégorielle
 effectif : valeurs cohérentes. Il faut la création d'une matrice avec les différentes valeurs. La normalisation des données à prévoir. numérique
-risque : valeurs cohérentes. Existence de 1% des données NA et des valeurs non précises (inclus dans une intervalle). catégorielle
+risque : valeurs cohérentes. Existence de 1% des données NA et des valeurs non précises (inclus dans une intervalle). Les entreprises doivent avoir au moins 7 comme note de risque, portant il y a des valeurs de 1-6. on les garde ou les supprime. ordinale (ça dépend de classifieur, il y a des classifieurs qui n'accepent que les catégorielles donc on les transforme).
 endettement : valeurs cohérentes. numérique
 evo_benefice : valeurs cohérentes. A voir plutard. numérique
 ratio_benef : ratio sur bénéfice (= bénéfice / CA total). Plus de 80% des valeurs vont 0. Nécessite d'un recalcul. numérique
