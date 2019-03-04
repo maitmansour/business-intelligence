@@ -1,0 +1,1 @@
+principal_component_1_and2 : la methode ACP ne permet pas de séparer les deux classes d'une maniére satifaisante; En plus dans notre démarche    on cherche à savoir exactement les types d'entreprises qui peuvent répondre favorablement à un rdv, ce qui n'est pas le cas avec l'ACP
