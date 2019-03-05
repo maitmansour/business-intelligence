@@ -11,3 +11,6 @@ Nettoyage :
 ACP :
 Affichage des 4 premier composantes principales, en utilisant sklearn.decomposition import PCA (scripts/analyse-acp.py) plot(principalcomponennts)
 
+
+Tree :
+Suite à un test avec 5000 valeurs, il est impossible d'en retirer des informations, l'arbre généré est d'une taille géante, alors comme solution, on va procéder à la  descritization dess atributs reel manuellement ([prendre des intervales]), et voir le resultat 
