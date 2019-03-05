@@ -1,0 +1,7 @@
+Exploration :
+
+Nous avons créer un mapping des data pour Elastic search (configuration/company_mappuing)
+
+NOus avons également développer un outils qui nous permet de convertir les données CSV en JSON, format de Elastic search, celui ci génére un fichier JSON compatible avec ES
+
+
