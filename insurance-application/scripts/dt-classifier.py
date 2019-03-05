@@ -15,6 +15,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import Imputer
 import seaborn as sns
 from sklearn import tree
+from graphviz import render
 
 # read input text and put data inside a data frame
 data = pd.read_csv('../data/base_prospect.csv', encoding='latin-1')
@@ -27,13 +28,10 @@ print( data .head())
 scaler = StandardScaler()
 scaled_X_norm = data.copy()
 
-col_names = ["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir","rdv"]
+col_names = ["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir"]
 X_norm = scaled_X_norm[col_names]
 scaler = StandardScaler().fit(X_norm.values)
 X_norm = scaler.transform(X_norm.values)
-
-
-
 
 print("\nData Head Standrized\n")
 scaled_X_norm[col_names] = X_norm
@@ -44,4 +42,10 @@ cleaned_data = imp.fit_transform(X_norm)
 
 
 # Get Decisional Tree Classifier
+target=data['rdv'];
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(cleaned_data, target)
 
+# Get Tree Graph
+tree.export_graphviz(clf,out_file="../plot/dt-classifier.gv") 
+render('dot', 'png', "../plot/dt-classifier.gv")  

@@ -1,7 +1,13 @@
 Exploration :
 
 Nous avons créer un mapping des data pour Elastic search (configuration/company_mappuing)
+Nous avons également développer un outils qui nous permet de convertir les données CSV en JSON, format de Elastic search, celui ci génére un fichier JSON compatible avec ES
 
-NOus avons également développer un outils qui nous permet de convertir les données CSV en JSON, format de Elastic search, celui ci génére un fichier JSON compatible avec ES
 
+Nettoyage :
+- Standardization avec StandardScaler
+- Remplir les cases NAN avec des valeurs mean, en utilisant Imputer
+
+ACP :
+Affichage des 4 premier composantes principales, en utilisant sklearn.decomposition import PCA (scripts/analyse-acp.py) plot(principalcomponennts)
 
