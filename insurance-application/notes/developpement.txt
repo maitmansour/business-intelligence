@@ -14,3 +14,9 @@ Affichage des 4 premier composantes principales, en utilisant sklearn.decomposit
 
 Tree :
 Suite à un test avec 5000 valeurs, il est impossible d'en retirer des informations, l'arbre généré est d'une taille géante, alors comme solution, on va procéder à la  descritization dess atributs reel manuellement ([prendre des intervales]), et voir le resultat 
+
+Discretisation is the process of transforming continuous variables into discrete variables by creating a set of contiguous intervals that span the range of variable values. (https://towardsdatascience.com/discretisation-using-decision-trees-21910483fa4b)
+
+
+Il faut faire 2 traitement, supervisé, et non supervisé
+Prédir les clusters et prédire le rdv
