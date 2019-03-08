@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import logging
-logging.basicConfig(filename='../logs/decision-tree.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
+logging.basicConfig(filename='../logs/decision-tree-split.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
 
 def replace_missing_value(df, number_features):
     logging.info('Replace missing values') 
