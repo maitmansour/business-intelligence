@@ -11,7 +11,6 @@ import numpy as np
 from sklearn import tree
 from graphviz import render
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import logging
