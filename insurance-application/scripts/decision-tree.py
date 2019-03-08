@@ -84,4 +84,8 @@ accuracy_score=accuracy_score(y_test,y_pred)*100
 print("\n\nACCURACY SCORE : "+str(accuracy_score)+" \n\n")
 logging.info('Accuracy score : '+str(accuracy_score)) 
 
-
+# Predict for special value
+pred=tree_model.predict_proba([[10.0,1629.0,0.0,0.0,41.0,0.0]])
+print("Predict Proba [10.0,1629.0,0.0,0.0,41.0,0.0]  = ",pred)
+pred=tree_model.predict([[10.0,1629.0,0.0,0.0,41.0,0.0]])
+print("Predict Rdv [10.0,1629.0,0.0,0.0,41.0,0.0]  = ",pred)
