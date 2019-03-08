@@ -1,0 +1,15 @@
+2019-03-08 12:50:23,899 Read data from file
+2019-03-08 12:50:24,839 Equilibrate rdv data
+2019-03-08 12:50:25,053 Replace missing values
+2019-03-08 12:50:25,121 Prepare classifier data
+2019-03-08 12:50:25,126 Separate the data into train and test set
+2019-03-08 12:50:51,457 Read data from file
+2019-03-08 12:50:52,372 Equilibrate rdv data
+2019-03-08 12:50:52,544 Replace missing values
+2019-03-08 12:50:52,608 Prepare classifier data
+2019-03-08 12:50:52,613 Separate the data into train and test set
+2019-03-08 12:51:32,912 Read data from file
+2019-03-08 12:51:33,951 Equilibrate rdv data
+2019-03-08 12:51:34,137 Replace missing values
+2019-03-08 12:51:34,205 Prepare classifier data
+2019-03-08 12:51:34,210 Start Cross Validation
