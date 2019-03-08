@@ -25,3 +25,12 @@
 2019-03-08 12:41:48,158 Save the decision tree
 2019-03-08 12:41:50,726 Start Predicting
 2019-03-08 12:41:50,739 Accuracy score : 57.758620689655174
+2019-03-08 12:43:41,636 Read data from file
+2019-03-08 12:43:42,579 Equilibrate rdv data
+2019-03-08 12:43:42,761 Replace missing values
+2019-03-08 12:43:42,829 Prepare classifier data
+2019-03-08 12:43:42,833 Separate the data into train and test set
+2019-03-08 12:43:43,231 Building and fitting a classification tree
+2019-03-08 12:43:43,303 Save the decision tree
+2019-03-08 12:43:45,563 Start Predicting
+2019-03-08 12:43:45,576 Accuracy score : 56.45065398335315

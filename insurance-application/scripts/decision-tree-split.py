@@ -68,8 +68,8 @@ tree_model.fit(X_train, y_train)
 
 # Save the decision tree.
 logging.info('Save the decision tree') 
-tree.export_graphviz(tree_model,out_file="../plot/decision-tree.gv") 
-render('dot', 'png', "../plot/decision-tree.gv")  
+tree.export_graphviz(tree_model,out_file="../plot/decision-tree-split.gv") 
+render('dot', 'png', "../plot/decision-tree-split.gv")  
 
 # Predict Test data
 logging.info('Start Predicting') 
