@@ -12,16 +12,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import Imputer
 import seaborn as sns
 from sklearn import tree
 from graphviz import render
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
+from sklearn.impute import SimpleImputer
 
 def replace_missing_value(df, number_features):
-    imputer = Imputer(strategy="median")
+    imputer = SimpleImputer(strategy="median")
     df_num = df[number_features]
     imputer.fit(df_num)
     X = imputer.transform(df_num)
@@ -35,12 +35,26 @@ data = pd.read_csv('../data/base_prospect.csv', encoding='latin-1')
 # Equilibrate rdv (0,1) data
 rdv_1=data.loc[data['rdv'] == 1]
 rdv_0_raw=data.loc[data['rdv'] == 0]
+
 # Random sampling - Random n rows
 rdv_0 = rdv_0_raw.sample(n=rdv_1.shape[0])
 
-# Clean data with len(rdv0)=len(rdv1)
+# Get clean data with len(rdv0)=len(rdv1)
 data = pd.concat([rdv_1, rdv_0],ignore_index=True)
 
 # Show data dead
 print(data.head())
 
+# Replace missing values
+data=replace_missing_value(data,["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir","rdv"])
+
+# Prepare classifier data
+feature_names=["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir"]
+X=data[feature_names]
+Y=data.rdv 
+
+# Separate the data into train and test set
+X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size = 0.3)
+
+# Fill NA values with MEAN
+X_test.fillna(X_train.mean(), inplace=True)
