@@ -48,6 +48,7 @@ rdv_0 = rdv_0_raw.sample(n=rdv_1.shape[0])
 data = pd.concat([rdv_1, rdv_0],ignore_index=True)
 
 # Show data dead
+print("\n\nDATA HEAD : \n\n")
 print(data.head())
 
 # Replace missing values
@@ -75,3 +76,12 @@ tree_model.fit(X_train, y_train)
 logging.info('Save the decision tree') 
 tree.export_graphviz(tree_model,out_file="../plot/decision-tree.gv") 
 render('dot', 'png', "../plot/decision-tree.gv")  
+
+# Predict Test data
+logging.info('Start Predicting') 
+y_pred = tree_model.predict(X_test)
+accuracy_score=accuracy_score(y_test,y_pred)*100
+print("\n\nACCURACY SCORE : "+str(accuracy_score)+" \n\n")
+logging.info('Accuracy score : '+str(accuracy_score)) 
+
+
