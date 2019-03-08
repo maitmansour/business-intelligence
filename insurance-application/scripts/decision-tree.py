@@ -7,12 +7,7 @@
 
 # librairies import
 import pandas as pd
-from matplotlib import cm
-import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-import seaborn as sns
 from sklearn import tree
 from graphviz import render
 from sklearn.model_selection import train_test_split
