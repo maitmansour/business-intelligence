@@ -18,6 +18,7 @@ from sklearn import tree
 from graphviz import render
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import accuracy_score
 
 def replace_missing_value(df, number_features):
 
@@ -30,10 +31,17 @@ def replace_missing_value(df, number_features):
 
 # read input text and put data inside a data frame
 data = pd.read_csv('../data/base_prospect.csv', encoding='latin-1')
+rdv_1=data.loc[data['rdv'] == 1]
+rdv_0_raw=data.loc[data['rdv'] == 0]
+''' Random sampling - Random n rows '''
+rdv_0 = rdv_0_raw.sample(n=rdv_1.shape[0])
+
+data = pd.concat([rdv_1, rdv_0],ignore_index=True)
+
 data=replace_missing_value(data,["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir","rdv"])
 # data head
 print("\n\n\nData Head \n")
-print( data .head())
+print( data )
 X=data[["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir"]]
 Y=data.rdv 
 feature_names=["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir"]
@@ -44,15 +52,22 @@ X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size = 0.3)
 tree_model = tree.DecisionTreeClassifier(max_depth=7)
 
 tree_model.fit(X_train, y_train)
-print(X.columns)
+y_pred = tree_model.predict(X_test)
+print(y_pred)
+print ("Accuracy is ", accuracy_score(y_test,y_pred)*100)
+
+pred=tree_model.predict_proba([[10.0,1629.0,0.0,0.0,41.0,0.0]])
+print("PRED PROBA  = ",pred)
+pred=tree_model.predict([[10.0,1629.0,0.0,0.0,41.0,0.0]])
+print("PRED = ",pred)
 data_feature_names=["effectif","ca_total_FL","ca_export_FK","evo_risque","age","chgt_dir"]
 
 
-tree.export_graphviz(tree_model,out_file="../plot/tree_model.gv",
-                                feature_names=data_feature_names,
-                                filled=True,
-                                rounded=True)
-render('dot', 'png', "../plot/tree_model.gv") 
+#tree.export_graphviz(tree_model,out_file="../plot/tree_model.gv",
+#                               feature_names=data_feature_names,
+#                               filled=True,
+#                               rounded=True)
+#render('dot', 'png', "../plot/tree_model.gv") 
 #X_train['Age_tree']=tree_model.predict_proba(X_train.age.to_frame())[:,1] 
 
 # Checking the number of unique values present in Age_treevariable
