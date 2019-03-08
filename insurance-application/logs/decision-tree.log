@@ -1,0 +1,9 @@
+2019-03-08 12:36:05,855 Read data from file
+2019-03-08 12:36:06,778 Equilibrate rdv data
+2019-03-08 12:36:06,969 Replace missing values
+2019-03-08 12:36:07,032 Prepare classifier data
+2019-03-08 12:36:07,037 Separate the data into train and test set
+2019-03-08 12:36:07,524 Building and fitting a classification tree
+2019-03-08 12:36:07,596 Save the decision tree
+2019-03-08 12:36:10,879 Start Predicting
+2019-03-08 12:36:10,891 Accuracy score : 54.91973840665874
