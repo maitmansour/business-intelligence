@@ -1,0 +1,64 @@
+2019-03-11 15:37:43,413 Read data from file
+2019-03-11 15:37:44,882 Equilibrate rdv data
+2019-03-11 15:37:45,036 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:42:05,039 Read data from file
+2019-03-11 15:42:05,967 Equilibrate rdv data
+2019-03-11 15:42:06,068 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:42:06,879 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:42:06,880 [-0.43253416 -0.00378759 -0.00220474 -0.00068485  0.00489252 -0.00445789
+  0.00084511  0.00056495  0.0013828 ]
+2019-03-11 15:42:29,047 Read data from file
+2019-03-11 15:42:29,966 Equilibrate rdv data
+2019-03-11 15:42:30,067 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:42:30,890 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:42:30,891 [-4.32437468e-01 -5.19007107e-03 -4.67054371e-03 -1.22362710e-03
+  4.68423665e-03 -1.78095629e-03 -2.33200916e-03 -1.65711816e-04
+  2.07040833e-03]
+2019-03-11 15:44:17,349 Read data from file
+2019-03-11 15:44:18,710 Equilibrate rdv data
+2019-03-11 15:44:18,874 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:44:19,687 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:44:19,687 [-4.32313974e-01 -5.61484114e-03 -3.70169604e-04 -2.90676712e-03
+  5.22975762e-03 -4.77369409e-03  9.01392669e-04 -2.80347471e-03
+  7.03182714e-04]
+2019-03-11 15:45:41,728 Read data from file
+2019-03-11 15:45:42,655 Equilibrate rdv data
+2019-03-11 15:45:42,756 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:45:43,596 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:45:43,597 [-4.32510795e-01 -3.88814341e-03 -1.80756241e-03 -3.10005949e-03
+  2.68443657e-03 -2.10621724e-03  5.92552652e-04  1.44005609e-04
+  3.52225223e-04]
+2019-03-11 15:46:22,579 Read data from file
+2019-03-11 15:46:23,502 Equilibrate rdv data
+2019-03-11 15:46:23,604 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:46:24,401 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:46:24,401 [-6.68006381e-05 -4.30738283e-05 -1.81945782e-07  5.91835505e-08
+  5.27959265e-04 -2.04379844e-04 -4.79785148e-05  1.14057012e-06
+ -1.15652152e-03]
+2019-03-11 15:46:48,933 Read data from file
+2019-03-11 15:46:49,845 Equilibrate rdv data
+2019-03-11 15:46:49,944 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:46:50,760 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:46:50,761 [-6.67909332e-05 -5.82098028e-05 -1.38901228e-07 -2.60086576e-08
+  4.26927309e-03 -2.04648765e-04 -3.85881871e-05  1.11689323e-06
+  2.32205793e-04]
+2019-03-11 15:47:07,271 Read data from file
+2019-03-11 15:47:08,180 Equilibrate rdv data
+2019-03-11 15:47:08,282 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:47:09,091 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:47:09,092 [-6.68159470e-05 -3.90518646e-05 -4.17402243e-08 -9.71109423e-08
+  3.28897039e-03 -2.64662460e-04  2.36077859e-05 -7.21095429e-06
+  1.67089638e-03]
+2019-03-11 15:51:00,647 Read data from file
+2019-03-11 15:51:01,629 Equilibrate rdv data
+2019-03-11 15:51:01,772 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:51:02,722 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:51:02,723 [-6.68167839e-05 -3.91931838e-05 -1.16493194e-07 -2.33854982e-07
+  4.10561611e-03 -2.66962665e-04  1.17371369e-04  4.83479741e-07
+  2.04206403e-03]
+2019-03-11 15:51:16,931 Read data from file
+2019-03-11 15:51:17,911 Equilibrate rdv data
+2019-03-11 15:51:18,012 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:51:18,840 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-11 15:51:18,841 [-0.43262486 -0.00053049 -0.00660878  0.00098119  0.00287577 -0.00173579
+ -0.00164018 -0.00048356  0.00061931]

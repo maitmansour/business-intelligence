@@ -1,0 +1,117 @@
+2019-03-11 14:53:04,455 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:53:04,503 Accuracy of Naive Bayes classifier on cross-validation: 0.52 (+/- 0.03)
+2019-03-11 14:53:04,562 Accuracy of Decision tree classifier on cross-validation: 0.51 (+/- 0.01)
+2019-03-11 14:53:04,761 Accuracy of Logistic regression classifier on cross-validation: 0.52 (+/- 0.02)
+2019-03-11 14:53:13,411 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:53:13,669 Accuracy of Naive Bayes classifier on cross-validation: 0.55 (+/- 0.05)
+2019-03-11 14:53:14,304 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.04)
+2019-03-11 14:53:15,366 Accuracy of Logistic regression classifier on cross-validation: 0.57 (+/- 0.05)
+2019-03-11 14:53:51,150 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:53:51,272 Accuracy of Naive Bayes classifier on cross-validation: 0.80 (+/- 0.42)
+2019-03-11 14:53:51,489 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 14:53:52,280 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 14:54:00,625 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:54:00,865 Accuracy of Naive Bayes classifier on cross-validation: 0.57 (+/- 0.04)
+2019-03-11 14:54:01,490 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.03)
+2019-03-11 14:54:02,382 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.04)
+2019-03-11 14:56:03,521 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:56:03,642 Accuracy of Naive Bayes classifier on cross-validation: 0.80 (+/- 0.44)
+2019-03-11 14:56:03,861 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 14:56:04,659 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 14:56:13,513 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:56:13,743 Accuracy of Naive Bayes classifier on cross-validation: 0.55 (+/- 0.06)
+2019-03-11 14:56:14,358 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.04)
+2019-03-11 14:56:15,284 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.04)
+2019-03-11 14:59:48,616 Read data from file
+2019-03-11 14:59:49,532 Equilibrate rdv data
+2019-03-11 14:59:51,127 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:59:51,249 Accuracy of Naive Bayes classifier on cross-validation: 0.79 (+/- 0.33)
+2019-03-11 14:59:51,465 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 14:59:52,240 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:00:00,875 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:00:01,103 Accuracy of Naive Bayes classifier on cross-validation: 0.56 (+/- 0.03)
+2019-03-11 15:00:01,732 Accuracy of Decision tree classifier on cross-validation: 0.60 (+/- 0.03)
+2019-03-11 15:00:02,562 Accuracy of Logistic regression classifier on cross-validation: 0.57 (+/- 0.04)
+2019-03-11 15:01:44,662 Read data from file
+2019-03-11 15:01:45,984 Equilibrate rdv data
+2019-03-11 15:02:17,071 Read data from file
+2019-03-11 15:02:17,980 Equilibrate rdv data
+2019-03-11 15:02:19,613 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:02:19,771 Accuracy of Naive Bayes classifier on cross-validation: 0.86 (+/- 0.25)
+2019-03-11 15:02:19,985 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:02:20,867 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:02:29,978 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:02:30,212 Accuracy of Naive Bayes classifier on cross-validation: 0.55 (+/- 0.05)
+2019-03-11 15:02:30,861 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.03)
+2019-03-11 15:02:31,844 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.05)
+2019-03-11 15:04:40,475 Read data from file
+2019-03-11 15:04:41,404 Equilibrate rdv data
+2019-03-11 15:04:41,503 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:04:42,966 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:04:43,087 Accuracy of Naive Bayes classifier on cross-validation: 0.81 (+/- 0.44)
+2019-03-11 15:04:43,307 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:04:44,063 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:04:53,061 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:04:53,288 Accuracy of Naive Bayes classifier on cross-validation: 0.56 (+/- 0.04)
+2019-03-11 15:04:53,916 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.03)
+2019-03-11 15:04:54,801 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.03)
+2019-03-11 15:07:42,690 Read data from file
+2019-03-11 15:07:43,699 Equilibrate rdv data
+2019-03-11 15:07:43,852 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:07:45,310 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:07:45,479 Accuracy of Naive Bayes classifier on cross-validation: 0.87 (+/- 0.36)
+2019-03-11 15:07:45,695 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:07:46,527 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:08:03,365 Accuracy of SVM classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:08:12,137 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:08:12,369 Accuracy of Naive Bayes classifier on cross-validation: 0.54 (+/- 0.05)
+2019-03-11 15:08:13,034 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.04)
+2019-03-11 15:08:13,962 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.04)
+2019-03-11 15:13:17,401 Read data from file
+2019-03-11 15:13:18,852 Equilibrate rdv data
+2019-03-11 15:13:18,953 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:13:19,816 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:13:19,938 Accuracy of Naive Bayes classifier on cross-validation: 0.83 (+/- 0.31)
+2019-03-11 15:13:20,158 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:13:20,974 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:13:29,567 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:13:29,795 Accuracy of Naive Bayes classifier on cross-validation: 0.56 (+/- 0.02)
+2019-03-11 15:13:30,431 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.04)
+2019-03-11 15:13:31,281 Accuracy of Logistic regression classifier on cross-validation: 0.58 (+/- 0.03)
+2019-03-11 15:16:29,259 Read data from file
+2019-03-11 15:16:30,604 Equilibrate rdv data
+2019-03-11 15:16:30,810 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:16:54,398 Read data from file
+2019-03-11 15:16:55,306 Equilibrate rdv data
+2019-03-11 15:16:55,407 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:18:19,535 Read data from file
+2019-03-11 15:18:20,474 Equilibrate rdv data
+2019-03-11 15:18:20,573 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:20:44,180 Read data from file
+2019-03-11 15:20:45,102 Equilibrate rdv data
+2019-03-11 15:20:45,201 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:21:16,088 Read data from file
+2019-03-11 15:21:17,007 Equilibrate rdv data
+2019-03-11 15:21:17,112 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:22:44,748 Read data from file
+2019-03-11 15:22:46,464 Equilibrate rdv data
+2019-03-11 15:22:46,568 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:22:56,035 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:22:56,375 Accuracy of Naive Bayes classifier on cross-validation: 0.77 (+/- 0.37)
+2019-03-11 15:22:56,790 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:22:57,959 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:23:36,263 Read data from file
+2019-03-11 15:23:37,173 Equilibrate rdv data
+2019-03-11 15:23:37,277 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:23:38,137 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:23:38,259 Accuracy of Naive Bayes classifier on cross-validation: 0.81 (+/- 0.39)
+2019-03-11 15:23:38,478 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:23:39,230 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:23:47,713 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:23:47,944 Accuracy of Naive Bayes classifier on cross-validation: 0.56 (+/- 0.02)
+2019-03-11 15:23:48,580 Accuracy of Decision tree classifier on cross-validation: 0.59 (+/- 0.03)
+2019-03-11 15:23:49,434 Accuracy of Logistic regression classifier on cross-validation: 0.57 (+/- 0.04)
+2019-03-11 15:23:49,604 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:23:49,951 Accuracy of Naive Bayes classifier on cross-validation: 0.82 (+/- 0.32)
+2019-03-11 15:23:50,417 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:23:51,593 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
