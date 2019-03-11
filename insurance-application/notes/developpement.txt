@@ -20,3 +20,21 @@ Discretisation is the process of transforming continuous variables into discrete
 
 Il faut faire 2 traitement, supervisé, et non supervisé
 Prédir les clusters et prédire le rdv
+
+
+
+Classifieurs :
+sans changement des valeurs pour risque
+2019-03-11 14:53:04,455 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 14:53:04,503 Accuracy of Naive Bayes classifier on cross-validation: 0.52 (+/- 0.03)
+2019-03-11 14:53:04,562 Accuracy of Decision tree classifier on cross-validation: 0.51 (+/- 0.01)
+2019-03-11 14:53:04,761 Accuracy of Logistic regression classifier on cross-validation: 0.52 (+/- 0.02)
+
+Aprés changement des valeurs :
+
+2019-03-11 15:07:43,852 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 15:07:45,310 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 15:07:45,479 Accuracy of Naive Bayes classifier on cross-validation: 0.87 (+/- 0.36)
+2019-03-11 15:07:45,695 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 15:07:46,527 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 15:08:03,365 Accuracy of SVM classifier on cross-validation: 0.90 (+/- 0.24)
