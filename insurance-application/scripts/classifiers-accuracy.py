@@ -64,18 +64,18 @@ def equilibrate_data(df):
 def fix_risque_data(risque_data):
     # Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
     logging.info('Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))') 
-    new_risque_values={}
+    new_risque_values=[]
     for index, row in enumerate(risque_data):
         try:
          if "-" in row: 
             splited_risque=row.split('-')
             splited_risque=np.array(splited_risque).astype(np.float)
             mean_risque=np.mean(splited_risque, axis = 0)
-            new_risque_values[index]=mean_risque
+            new_risque_values = np.append(new_risque_values, mean_risque)
          else:
-            new_risque_values[index]=row
+            new_risque_values = np.append(new_risque_values, row)
         except TypeError:
-         new_risque_values[index]=np.nan
+         new_risque_values = np.append(new_risque_values, 7)
          continue # skips to next iteration
     return new_risque_values
     

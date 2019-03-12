@@ -14,7 +14,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import logging
-logging.basicConfig(filename='../logs/linear-regression.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
+logging.basicConfig(filename='../logs/decision-tree.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
 from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import LogisticRegression
@@ -23,7 +23,7 @@ from sklearn.model_selection import cross_val_predict
 from sklearn.preprocessing import LabelEncoder
 from sklearn import svm
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import Ridge,LinearRegression
+from sklearn.model_selection import train_test_split
 
 dummycl = DummyClassifier(strategy="most_frequent")
 gmb = GaussianNB()
@@ -106,18 +106,19 @@ numeric_data = simple_imputer.transform(numeric_data)
 label_encoder = LabelEncoder()
 Y = label_encoder.fit_transform(data["rdv"])
 
-# Calcul et affichage des scores en appelant la methode accuracy_score fournit dans le tp
-#print('\n Accuracy Score for Numeric data : \n')
-#accuracy_score(lst_classif,lst_classif_names,numeric_data,Y)
+# Separate the data into train and test set
+logging.info('Separate the data into train and test set') 
+X_train, X_test, y_train, y_test = train_test_split(numeric_data,Y, test_size = 0.3)
 
-# Get Model
-ridge = Ridge()
-ridge.fit(numeric_data, Y)
-model = ridge.coef_
-print('\nModel :\n')
-print(model)
-logging.info('[risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]') 
-logging.info(model) 
-#     0         3             4            2          8           1         6            5            7
-#[risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
-#[-0.43244164 -0.00283495 -0.00223196 -0.00434424  0.00291455 -0.0046633  0.00147904 -0.00131976  0.00172496]
+# Fill NA values with MEAN
+#X_test.fillna(X_train.mean(), inplace=True)
+
+# Building and fitting a classification tree
+logging.info('Building and fitting a classification tree') 
+tree_model = tree.DecisionTreeClassifier(max_depth=4)
+tree_model.fit(X_train, y_train)
+
+# Save the decision tree.
+logging.info('Save the decision tree') 
+tree.export_graphviz(tree_model,out_file="../plot/decision-tree-new.gv") 
+render('dot', 'png', "../plot/decision-tree-new.gv")  

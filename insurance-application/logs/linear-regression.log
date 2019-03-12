@@ -62,3 +62,9 @@
 2019-03-11 15:51:18,840 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
 2019-03-11 15:51:18,841 [-0.43262486 -0.00053049 -0.00660878  0.00098119  0.00287577 -0.00173579
  -0.00164018 -0.00048356  0.00061931]
+2019-03-12 09:46:27,466 Read data from file
+2019-03-12 09:46:28,386 Equilibrate rdv data
+2019-03-12 09:46:28,490 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-12 09:46:55,538 [risque      effectif    ca_total_FL  ca_export_FK evo_risque   age     evo_benefice ratio_benef evo_effectif ]
+2019-03-12 09:46:55,539 [-0.02262215 -0.03061608 -0.00327285 -0.00326605  0.00833847 -0.01578618
+ -0.00430002  0.00050734  0.00189785]
