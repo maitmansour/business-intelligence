@@ -1,0 +1,7 @@
+2019-03-14 12:55:05,886 Read data from file
+2019-03-14 12:55:06,822 Equilibrate rdv data
+2019-03-14 12:55:06,921 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:55:32,895 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-14 12:55:33,018 Accuracy of Naive Bayes classifier on cross-validation: 0.52 (+/- 0.01)
+2019-03-14 12:55:35,213 Accuracy of Decision tree classifier on cross-validation: 0.57 (+/- 0.15)
+2019-03-14 12:55:35,882 Accuracy of Logistic regression classifier on cross-validation: 0.54 (+/- 0.04)

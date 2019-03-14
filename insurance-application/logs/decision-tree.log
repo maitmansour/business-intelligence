@@ -1,0 +1,6 @@
+2019-03-14 12:56:37,924 Read data from file
+2019-03-14 12:56:38,854 Equilibrate rdv data
+2019-03-14 12:56:38,952 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:57:12,948 Separate the data into train and test set
+2019-03-14 12:57:12,954 Building and fitting a classification tree
+2019-03-14 12:57:13,049 Save the decision tree

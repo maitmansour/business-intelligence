@@ -14,7 +14,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import logging
-logging.basicConfig(filename='../../logs/decision-tree.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
+logging.basicConfig(filename='logs/decision-tree.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
 from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import LogisticRegression
@@ -82,7 +82,7 @@ def fix_risque_data(risque_data):
     
 # Read input text and put data inside a data frame
 logging.info('Read data from file') 
-data = pd.read_csv('../../data/base_prospect.csv', encoding='latin-1')
+data = pd.read_csv('data/base_prospect.csv', encoding='latin-1')
 data=equilibrate_data(df=data)
 
 # Prepare numeric data
@@ -142,5 +142,5 @@ tree_model.fit(X_train, y_train)
 
 # Save the decision tree.
 logging.info('Save the decision tree') 
-tree.export_graphviz(tree_model,out_file="../../plot/DT/decision-tree.gv") 
-render('dot', 'png', "../../plot/DT/decision-tree.gv")  
+tree.export_graphviz(tree_model,out_file="plot/DT/decision-tree.gv") 
+render('dot', 'png', "plot/DT/decision-tree.gv")  

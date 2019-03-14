@@ -1,0 +1,18 @@
+2019-03-14 12:55:52,296 CACHEDIR=/home/mohamed/.cache/matplotlib
+2019-03-14 12:55:52,342 Using fontManager instance from /home/mohamed/.cache/matplotlib/fontlist-v300.json
+2019-03-14 12:55:53,152 Loaded backend TkAgg version unknown.
+2019-03-14 12:55:53,672 Read data from file
+2019-03-14 12:55:54,590 Equilibrate rdv data
+2019-03-14 12:55:54,700 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:56:31,923 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-14 12:56:31,975 update_title_pos
+2019-03-14 12:56:32,486 update_title_pos
+2019-03-14 12:56:32,727 update_title_pos
+2019-03-14 12:56:32,966 update_title_pos
+2019-03-14 12:56:33,214 update_title_pos
+2019-03-14 12:56:33,757 update_title_pos
+2019-03-14 12:56:34,254 update_title_pos
+2019-03-14 12:56:34,501 update_title_pos
+2019-03-14 12:56:34,739 update_title_pos
+2019-03-14 12:56:34,987 update_title_pos
+2019-03-14 12:56:35,381 update_title_pos
