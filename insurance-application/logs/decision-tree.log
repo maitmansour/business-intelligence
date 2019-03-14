@@ -1,0 +1,173 @@
+2019-03-11 16:37:54,040 Read data from file
+2019-03-11 16:37:55,189 Equilibrate rdv data
+2019-03-11 16:37:55,351 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:37:56,229 Accuracy of Dummy classifier on cross-validation: 0.50 (+/- 0.00)
+2019-03-11 16:37:56,388 Accuracy of Naive Bayes classifier on cross-validation: 0.75 (+/- 0.41)
+2019-03-11 16:37:56,608 Accuracy of Decision tree classifier on cross-validation: 0.90 (+/- 0.25)
+2019-03-11 16:37:57,528 Accuracy of Logistic regression classifier on cross-validation: 0.90 (+/- 0.24)
+2019-03-11 16:38:06,556 Building and fitting a classification tree
+2019-03-11 16:38:06,599 Save the decision tree
+2019-03-11 16:38:24,927 Read data from file
+2019-03-11 16:38:25,860 Equilibrate rdv data
+2019-03-11 16:38:25,960 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:38:26,778 Building and fitting a classification tree
+2019-03-11 16:38:26,821 Save the decision tree
+2019-03-11 16:38:43,795 Read data from file
+2019-03-11 16:38:44,714 Equilibrate rdv data
+2019-03-11 16:38:44,814 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:38:45,646 Building and fitting a classification tree
+2019-03-11 16:38:45,690 Save the decision tree
+2019-03-11 16:40:20,899 Read data from file
+2019-03-11 16:40:22,019 Equilibrate rdv data
+2019-03-11 16:40:22,168 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:40:22,980 Building and fitting a classification tree
+2019-03-11 16:40:23,024 Save the decision tree
+2019-03-11 16:41:06,648 Read data from file
+2019-03-11 16:41:07,560 Equilibrate rdv data
+2019-03-11 16:41:07,661 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:41:08,479 Building and fitting a classification tree
+2019-03-11 16:43:43,195 Read data from file
+2019-03-11 16:43:44,121 Equilibrate rdv data
+2019-03-11 16:43:44,221 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:43:47,997 Building and fitting a classification tree
+2019-03-11 16:43:48,045 Save the decision tree
+2019-03-11 16:44:58,978 Read data from file
+2019-03-11 16:44:59,895 Equilibrate rdv data
+2019-03-11 16:45:00,003 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:45:03,062 Save the decision tree
+2019-03-11 16:45:25,103 Read data from file
+2019-03-11 16:45:26,031 Equilibrate rdv data
+2019-03-11 16:45:26,133 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:45:29,158 Save the decision tree
+2019-03-11 16:46:34,731 Read data from file
+2019-03-11 16:46:35,651 Equilibrate rdv data
+2019-03-11 16:46:35,751 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:46:38,839 Save the decision tree
+2019-03-11 16:49:38,331 Read data from file
+2019-03-11 16:49:39,252 Equilibrate rdv data
+2019-03-11 16:49:39,352 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:49:42,444 Save the decision tree
+2019-03-11 16:49:43,695 Save the decision tree
+2019-03-11 16:49:44,026 Save the decision tree
+2019-03-11 16:49:44,375 Save the decision tree
+2019-03-11 16:49:44,755 Save the decision tree
+2019-03-11 16:53:32,424 Read data from file
+2019-03-11 16:53:33,498 Equilibrate rdv data
+2019-03-11 16:53:33,601 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:53:36,680 Save the decision tree
+2019-03-11 16:53:37,934 Save the decision tree
+2019-03-11 16:53:38,268 Save the decision tree
+2019-03-11 16:53:38,614 Save the decision tree
+2019-03-11 16:53:39,030 Save the decision tree
+2019-03-11 16:54:13,647 Read data from file
+2019-03-11 16:54:14,657 Equilibrate rdv data
+2019-03-11 16:54:14,758 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:54:15,567 Building and fitting a classification tree
+2019-03-11 16:54:15,611 Save the decision tree
+2019-03-11 16:54:52,294 Read data from file
+2019-03-11 16:54:53,343 Equilibrate rdv data
+2019-03-11 16:54:53,506 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:54:54,316 Building and fitting a classification tree
+2019-03-11 16:55:10,243 Read data from file
+2019-03-11 16:55:11,177 Equilibrate rdv data
+2019-03-11 16:55:11,277 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:55:12,086 Building and fitting a classification tree
+2019-03-11 16:55:29,126 Read data from file
+2019-03-11 16:55:30,059 Equilibrate rdv data
+2019-03-11 16:55:30,161 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:55:30,990 Building and fitting a classification tree
+2019-03-11 16:55:31,035 Save the decision tree
+2019-03-11 16:59:01,455 Read data from file
+2019-03-11 16:59:02,402 Equilibrate rdv data
+2019-03-11 16:59:02,501 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:59:03,342 Building and fitting a classification tree
+2019-03-11 16:59:03,388 Save the decision tree
+2019-03-11 16:59:27,392 Read data from file
+2019-03-11 16:59:28,304 Equilibrate rdv data
+2019-03-11 16:59:28,405 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 16:59:29,235 Building and fitting a classification tree
+2019-03-11 16:59:29,281 Save the decision tree
+2019-03-11 17:02:48,259 Read data from file
+2019-03-11 17:02:49,179 Equilibrate rdv data
+2019-03-11 17:02:49,279 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:02:50,094 Separate the data into train and test set
+2019-03-11 17:03:03,402 Read data from file
+2019-03-11 17:03:04,311 Equilibrate rdv data
+2019-03-11 17:03:04,411 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:03:05,230 Separate the data into train and test set
+2019-03-11 17:03:05,237 Building and fitting a classification tree
+2019-03-11 17:03:05,269 Save the decision tree
+2019-03-11 17:05:07,840 Read data from file
+2019-03-11 17:05:08,882 Equilibrate rdv data
+2019-03-11 17:05:08,980 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:05:09,787 Separate the data into train and test set
+2019-03-11 17:05:09,794 Building and fitting a classification tree
+2019-03-11 17:05:09,826 Save the decision tree
+2019-03-11 17:06:27,610 Read data from file
+2019-03-11 17:06:28,661 Equilibrate rdv data
+2019-03-11 17:06:28,804 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:06:29,616 Separate the data into train and test set
+2019-03-11 17:06:29,622 Building and fitting a classification tree
+2019-03-11 17:06:29,654 Save the decision tree
+2019-03-11 17:21:57,642 Read data from file
+2019-03-11 17:21:58,660 Equilibrate rdv data
+2019-03-11 17:21:58,803 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:21:59,608 Separate the data into train and test set
+2019-03-11 17:21:59,615 Building and fitting a classification tree
+2019-03-11 17:21:59,647 Save the decision tree
+2019-03-11 17:23:25,555 Read data from file
+2019-03-11 17:23:26,498 Equilibrate rdv data
+2019-03-11 17:23:26,599 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:23:52,220 Read data from file
+2019-03-11 17:23:53,138 Equilibrate rdv data
+2019-03-11 17:23:53,239 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:23:54,040 Separate the data into train and test set
+2019-03-11 17:23:54,047 Building and fitting a classification tree
+2019-03-11 17:23:54,081 Save the decision tree
+2019-03-11 17:25:33,431 Read data from file
+2019-03-11 17:25:34,388 Equilibrate rdv data
+2019-03-11 17:25:34,539 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-11 17:25:35,347 Separate the data into train and test set
+2019-03-11 17:25:35,354 Building and fitting a classification tree
+2019-03-11 17:25:35,386 Save the decision tree
+2019-03-12 09:47:31,735 Read data from file
+2019-03-12 09:47:32,689 Equilibrate rdv data
+2019-03-12 09:47:32,790 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-12 09:47:59,827 Separate the data into train and test set
+2019-03-12 09:47:59,834 Building and fitting a classification tree
+2019-03-12 09:47:59,990 Save the decision tree
+2019-03-12 09:48:47,548 Read data from file
+2019-03-12 09:48:48,473 Equilibrate rdv data
+2019-03-12 09:48:48,572 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-12 09:49:14,718 Separate the data into train and test set
+2019-03-12 09:49:14,725 Building and fitting a classification tree
+2019-03-12 09:49:14,819 Save the decision tree
+2019-03-14 12:13:06,507 Read data from file
+2019-03-14 12:13:07,514 Equilibrate rdv data
+2019-03-14 12:13:07,613 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:13:35,836 Separate the data into train and test set
+2019-03-14 12:13:35,843 Building and fitting a classification tree
+2019-03-14 12:13:35,936 Save the decision tree
+2019-03-14 12:14:48,752 Read data from file
+2019-03-14 12:14:49,662 Equilibrate rdv data
+2019-03-14 12:14:49,765 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:15:24,674 Separate the data into train and test set
+2019-03-14 12:15:24,704 Building and fitting a classification tree
+2019-03-14 12:15:24,854 Save the decision tree
+2019-03-14 12:16:00,370 Read data from file
+2019-03-14 12:16:01,273 Equilibrate rdv data
+2019-03-14 12:16:01,374 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:16:37,106 Separate the data into train and test set
+2019-03-14 12:16:37,172 Building and fitting a classification tree
+2019-03-14 12:18:14,057 Read data from file
+2019-03-14 12:18:14,970 Equilibrate rdv data
+2019-03-14 12:18:15,081 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:18:51,671 Separate the data into train and test set
+2019-03-14 12:18:51,677 Building and fitting a classification tree
+2019-03-14 12:18:51,768 Save the decision tree
+2019-03-14 12:20:29,441 Read data from file
+2019-03-14 12:20:30,360 Equilibrate rdv data
+2019-03-14 12:20:30,472 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-14 12:21:05,962 Separate the data into train and test set
+2019-03-14 12:21:05,969 Building and fitting a classification tree
+2019-03-14 12:21:06,058 Save the decision tree
