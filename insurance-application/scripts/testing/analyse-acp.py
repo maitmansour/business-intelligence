@@ -14,7 +14,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 import logging
-logging.basicConfig(filename='../../logs/decision-tree.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
+logging.basicConfig(filename='../../logs/analyse-acp.log',level=logging.DEBUG,format='%(asctime)s %(message)s')
 from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import LogisticRegression
