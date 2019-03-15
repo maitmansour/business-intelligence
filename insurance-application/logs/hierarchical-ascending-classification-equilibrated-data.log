@@ -1,0 +1,12 @@
+2019-03-15 12:20:11,900 Read data from file
+2019-03-15 12:20:12,979 Equilibrate rdv data
+2019-03-15 12:20:13,121 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-15 12:21:16,112 Start HAC
+2019-03-15 12:42:48,001 Read data from file
+2019-03-15 12:42:48,976 Equilibrate rdv data
+2019-03-15 12:42:49,190 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-15 12:43:23,940 Start HAC
+2019-03-15 12:50:26,206 update_title_pos
+2019-03-15 12:50:26,557 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-15 12:50:27,295 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-15 12:50:29,914 Got 12 Classes
