@@ -21,3 +21,9 @@ echo "\nSCRIPT 6/ : TESTING LINEAR REGRESSION\n"
 python3 scripts/testing/linear-regression.py
 
 echo "\n************ SUPERVISED DONE, PLEASE CHECK LOGS FILES AND PLOTS **************\n"
+
+echo "\nSCRIPT 7/ : UNSUPERVISED EQUILIBRATED DATA KMEANS\n"
+python3 scripts/unsupervised/kmeans-equilibrated-data.py
+
+echo "\nSCRIPT 8/ : UNSUPERVISED UNEQUILIBRATED DATA KMEANS\n"
+python3 scripts/unsupervised/kmeans-unequilibrated-data.py

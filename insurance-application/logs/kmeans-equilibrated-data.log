@@ -1,0 +1,48 @@
+2019-03-15 11:57:50,472 Read data from file
+2019-03-15 11:57:52,786 Equilibrate rdv data
+2019-03-15 11:57:52,900 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-15 11:58:29,455 Iterate over Kmeans classes 1
+2019-03-15 11:58:31,448 Iterate over Kmeans classes 2
+2019-03-15 11:58:33,517 Iterate over Kmeans classes 3
+2019-03-15 11:58:35,822 Iterate over Kmeans classes 4
+2019-03-15 11:58:38,929 Iterate over Kmeans classes 5
+2019-03-15 11:58:42,224 Iterate over Kmeans classes 6
+2019-03-15 11:58:45,263 Iterate over Kmeans classes 7
+2019-03-15 11:58:48,995 Iterate over Kmeans classes 8
+2019-03-15 11:58:53,072 Iterate over Kmeans classes 9
+2019-03-15 11:58:57,079 Iterate over Kmeans classes 10
+2019-03-15 11:59:01,363 Iterate over Kmeans classes 11
+2019-03-15 11:59:06,807 Iterate over Kmeans classes 12
+2019-03-15 11:59:12,851 Iterate over Kmeans classes 13
+2019-03-15 11:59:21,162 Iterate over Kmeans classes 14
+2019-03-15 11:59:26,783 Iterate over Kmeans classes 15
+2019-03-15 11:59:33,327 Iterate over Kmeans classes 16
+2019-03-15 11:59:40,698 Iterate over Kmeans classes 17
+2019-03-15 11:59:48,213 Iterate over Kmeans classes 18
+2019-03-15 11:59:56,069 Iterate over Kmeans classes 19
+2019-03-15 12:00:07,559 update_title_pos
+2019-03-15 12:00:07,643 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-15 12:01:22,261 Read data from file
+2019-03-15 12:01:23,193 Equilibrate rdv data
+2019-03-15 12:01:23,307 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-15 12:02:00,709 Iterate over Kmeans classes 1
+2019-03-15 12:02:02,241 Iterate over Kmeans classes 2
+2019-03-15 12:02:04,112 Iterate over Kmeans classes 3
+2019-03-15 12:02:06,515 Iterate over Kmeans classes 4
+2019-03-15 12:02:09,944 Iterate over Kmeans classes 5
+2019-03-15 12:02:13,598 Iterate over Kmeans classes 6
+2019-03-15 12:02:16,993 Iterate over Kmeans classes 7
+2019-03-15 12:02:20,301 Iterate over Kmeans classes 8
+2019-03-15 12:02:24,539 Iterate over Kmeans classes 9
+2019-03-15 12:02:29,151 Iterate over Kmeans classes 10
+2019-03-15 12:02:34,111 Iterate over Kmeans classes 11
+2019-03-15 12:02:39,711 Iterate over Kmeans classes 12
+2019-03-15 12:02:46,184 Iterate over Kmeans classes 13
+2019-03-15 12:02:51,624 Iterate over Kmeans classes 14
+2019-03-15 12:02:58,553 Iterate over Kmeans classes 15
+2019-03-15 12:03:04,698 Iterate over Kmeans classes 16
+2019-03-15 12:03:13,275 Iterate over Kmeans classes 17
+2019-03-15 12:03:19,896 Iterate over Kmeans classes 18
+2019-03-15 12:03:29,232 Iterate over Kmeans classes 19
+2019-03-15 12:03:32,551 update_title_pos
+2019-03-15 12:03:32,660 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
