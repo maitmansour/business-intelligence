@@ -1,18 +1,34 @@
-2019-03-14 12:55:52,296 CACHEDIR=/home/mohamed/.cache/matplotlib
-2019-03-14 12:55:52,342 Using fontManager instance from /home/mohamed/.cache/matplotlib/fontlist-v300.json
-2019-03-14 12:55:53,152 Loaded backend TkAgg version unknown.
-2019-03-14 12:55:53,672 Read data from file
-2019-03-14 12:55:54,590 Equilibrate rdv data
-2019-03-14 12:55:54,700 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
-2019-03-14 12:56:31,923 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2019-03-14 12:56:31,975 update_title_pos
-2019-03-14 12:56:32,486 update_title_pos
-2019-03-14 12:56:32,727 update_title_pos
-2019-03-14 12:56:32,966 update_title_pos
-2019-03-14 12:56:33,214 update_title_pos
-2019-03-14 12:56:33,757 update_title_pos
-2019-03-14 12:56:34,254 update_title_pos
-2019-03-14 12:56:34,501 update_title_pos
-2019-03-14 12:56:34,739 update_title_pos
-2019-03-14 12:56:34,987 update_title_pos
-2019-03-14 12:56:35,381 update_title_pos
+2019-03-16 16:27:28,947 CACHEDIR=/home/mohamed/.cache/matplotlib
+2019-03-16 16:27:28,969 Using fontManager instance from /home/mohamed/.cache/matplotlib/fontlist-v300.json
+2019-03-16 16:27:29,307 Loaded backend TkAgg version unknown.
+2019-03-16 16:27:29,473 Read input text and put data inside a data frame
+2019-03-16 16:27:29,473 Read data from file
+2019-03-16 16:27:30,404 Equilibrate rdv (0,1) data
+2019-03-16 16:27:30,405 Equilibrate rdv data
+2019-03-16 16:27:30,452 Random sampling - Random n rows
+2019-03-16 16:27:30,472 Get clean data with len(rdv0)=len(rdv1)
+2019-03-16 16:27:30,502 Prepare numeric data
+2019-03-16 16:27:30,517 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-16 16:27:59,516 Normlize numerique data
+2019-03-16 16:27:59,657 Replace nan data (MEAN)
+2019-03-16 16:27:59,670 Prepare categorial data
+2019-03-16 16:27:59,678 Replace none values with most frequent values
+2019-03-16 16:28:04,418 Replace ? values with most frequent values
+2019-03-16 16:28:08,636 Data descritization
+2019-03-16 16:28:08,707 Prepare RDV attribute
+2019-03-16 16:28:08,714 Get Principal Components
+2019-03-16 16:28:08,934 Save the principal Components
+2019-03-16 16:28:08,951 Save Principal Components
+2019-03-16 16:28:09,744 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-16 16:28:09,760 update_title_pos
+2019-03-16 16:28:10,293 update_title_pos
+2019-03-16 16:28:10,543 update_title_pos
+2019-03-16 16:28:10,789 update_title_pos
+2019-03-16 16:28:11,045 update_title_pos
+2019-03-16 16:28:11,438 Save Principal Components
+2019-03-16 16:28:11,622 update_title_pos
+2019-03-16 16:28:12,147 update_title_pos
+2019-03-16 16:28:12,403 update_title_pos
+2019-03-16 16:28:12,647 update_title_pos
+2019-03-16 16:28:12,903 update_title_pos
+2019-03-16 16:28:13,304 update_title_pos

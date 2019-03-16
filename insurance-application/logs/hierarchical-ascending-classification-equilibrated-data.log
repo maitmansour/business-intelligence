@@ -1,12 +1,19 @@
-2019-03-15 12:20:11,900 Read data from file
-2019-03-15 12:20:12,979 Equilibrate rdv data
-2019-03-15 12:20:13,121 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
-2019-03-15 12:21:16,112 Start HAC
-2019-03-15 12:42:48,001 Read data from file
-2019-03-15 12:42:48,976 Equilibrate rdv data
-2019-03-15 12:42:49,190 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
-2019-03-15 12:43:23,940 Start HAC
-2019-03-15 12:50:26,206 update_title_pos
-2019-03-15 12:50:26,557 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2019-03-15 12:50:27,295 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2019-03-15 12:50:29,914 Got 12 Classes
+2019-03-16 16:31:52,834 Read input text and put data inside a data frame
+2019-03-16 16:31:53,794 Equilibrate rdv (0,1) data
+2019-03-16 16:31:53,794 Equilibrate rdv data
+2019-03-16 16:31:53,845 Random sampling - Random n rows
+2019-03-16 16:31:53,865 Get clean data with len(rdv0)=len(rdv1)
+2019-03-16 16:31:53,895 Prepare numeric data
+2019-03-16 16:31:53,911 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-16 16:32:22,127 Normlize numerique data
+2019-03-16 16:32:22,248 Replace nan data (MEAN)
+2019-03-16 16:32:22,259 Prepare categorial data
+2019-03-16 16:32:22,426 Replace none values with most frequent values
+2019-03-16 16:32:26,320 Replace ? values with most frequent values
+2019-03-16 16:32:30,190 Data descritization
+2019-03-16 16:32:30,257 Prepare RDV attribute
+2019-03-16 16:32:30,270 Start HAC
+2019-03-16 16:45:37,374 update_title_pos
+2019-03-16 16:45:39,150 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-16 16:45:40,488 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/mohamed/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-16 16:45:42,931 Got 11 Classes

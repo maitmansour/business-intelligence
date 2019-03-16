@@ -1,2 +1,0 @@
-2019-03-15 12:03:45,120 Read data from file
-2019-03-15 12:03:46,173 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))

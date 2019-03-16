@@ -1,6 +1,18 @@
-2019-03-14 12:56:37,924 Read data from file
-2019-03-14 12:56:38,854 Equilibrate rdv data
-2019-03-14 12:56:38,952 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
-2019-03-14 12:57:12,948 Separate the data into train and test set
-2019-03-14 12:57:12,954 Building and fitting a classification tree
-2019-03-14 12:57:13,049 Save the decision tree
+2019-03-16 16:28:15,964 Read input text and put data inside a data frame
+2019-03-16 16:28:15,965 Read data from file
+2019-03-16 16:28:16,886 Equilibrate rdv (0,1) data
+2019-03-16 16:28:16,887 Equilibrate rdv data
+2019-03-16 16:28:16,925 Random sampling - Random n rows
+2019-03-16 16:28:16,946 Get clean data with len(rdv0)=len(rdv1)
+2019-03-16 16:28:16,974 Prepare numeric data
+2019-03-16 16:28:16,988 Fix risque values (instead of 10-13, we will replace this value into mean([10,13]))
+2019-03-16 16:28:45,042 Normlize numerique data
+2019-03-16 16:28:45,162 Replace nan data (MEAN)
+2019-03-16 16:28:45,172 Prepare categorial data
+2019-03-16 16:28:45,179 Replace none values with most frequent values
+2019-03-16 16:28:49,905 Replace ? values with most frequent values
+2019-03-16 16:28:54,466 Data descritization
+2019-03-16 16:28:54,536 Prepare RDV attribute
+2019-03-16 16:28:54,550 Separate the data into train and test set
+2019-03-16 16:28:54,556 Building and fitting a classification tree
+2019-03-16 16:28:54,649 Save the decision tree
